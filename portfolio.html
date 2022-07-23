@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
 </head>
-<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
 <body>
     <!-- Header -->
     <header class="page-header line">
@@ -15,21 +16,22 @@
 <nav class="page-nav">
            <a href="./index.html" class="logo first">Web<span class="logo-color-header">Studio</span></a>
         <ul class="site-nav page-nav">
-            <li class="menu-item"> <a href="./index.html" class="link first">Студия</a></li>
-            <li class="menu-item"> <a href="./portfolio.html" class="link curent first">Портфолио</a></li>
-            <li class="menu-item"> <a href=""class="link first">Контакты</a></li>   
+            <li class="menu-item contacts"> <a href="./index.html" class="link first">Студия</a></li>
+            <li class="menu-item contacts"> <a href="./portfolio.html" class="link curent first">Портфолио</a></li>
+            <li class="menu-item contacts"> <a href=""class="link first">Контакты</a></li>   
         </ul>     
 </nav>
-        <ul class="contacts page-header-container">
-    <li> <a href="" class="mail contacts">info@devstudio.com</a></li>
-    <li> <a href="" class="phone">+38 096 111 11 11</a></li>
+        <ul class="page-header-container">
+    <li class="contacts"> <a href="" class="mail contacts">info@devstudio.com</a></li>
+    <li class="contacts"> <a href="" class="phone">+38 096 111 11 11</a></li>
         </ul>
     </div>
     </header>
     <main>
         <!-- Filter -->
        <h1 class="hidden">Наши работы</h1>
-       <section class="container">
+       <section>
+        <div class="container">
         <ul class="filter">
             <li> <button type="button" class="button">Все</button></li>
             <li> <button type="button" class="button">Веб-сайты</button></li>
@@ -123,19 +125,20 @@
             </li> 
         </ul>
     </div>
+            </div>
        </section>
     </main>
     <!-- Logo -->
     <footer>
         <div class="container">
          <!-- Logo -->
-        <a href="/" class="logo">Web<span class="logo-color-footer">Studio</span></a>
+        <a href="/" class="logo-footer">Web<span class="logo-color-footer">Studio</span></a>
     <address class="address">
-        <p class="margin-address sub-title">г. Киев, пр-т Леси Украинки, 26</p> 
+        <p class="sub-title">г. Киев, пр-т Леси Украинки, 26</p> 
         <!-- Contacts -->
         <ul>
-            <li class="sub-title"><a href="mailto:info@example.com" class="footer-contacts sub-title">info@example.com</a></li>
-            <li class="footet-bottom"><a href="tel: 099 111 11 11" class="footer-contacts">099 111 11 11</a></li>
+            <li class="sub-title"><a href="mailto:info@example.com" class="footer-contacts">info@example.com</a></li>
+            <li class="sub-title"><a href="tel: 099 111 11 11" class="footer-contacts">099 111 11 11</a></li>
         </ul>
     </address>
         </div>

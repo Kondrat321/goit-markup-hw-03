@@ -102,8 +102,6 @@ ul{
     padding-bottom: 10px;
     padding-left: 32px;
     padding-right: 32px;
-    left: 700px;
-    top: 430px;
     border-radius: 4px;
 }
 .hero-title{
@@ -114,11 +112,13 @@ ul{
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-align: center;
-    padding-top: 200px;
-    padding-bottom: 280px;
+    margin-bottom: 30px;
 }
 .hidden{
     display: none;
+}
+.top{
+    padding-top: 94px;
 }
 /* Filter */
 .filter{
@@ -166,9 +166,16 @@ ul{
     color: #FFFFFF;
 }
 /* Section */
+.padding{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.width{
+    width: 270px;
+}
 .content-item{
     display: flex;
-    padding-top: 94px;
+    gap: 30px;
 }
 .services{
     display: flex;
@@ -186,6 +193,7 @@ flex-basis: calc((100% - 60px)/3);
     letter-spacing: 0.03em;
     text-align: left;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 .section-content{
     color: var(--secondary-text-color);
@@ -193,13 +201,13 @@ flex-basis: calc((100% - 60px)/3);
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-align: left;
-    padding-top: 10px;
-    margin-right: 30px;
+    gap: 30px;
 }
 /* Title */
 .employe{
+    padding-top: 94px;
+    padding-bottom: 94px;
     background-color: #F5F4FA;
-    margin-top: 94px;
     padding-bottom: 94px;
 }
 .employees{
@@ -226,7 +234,6 @@ flex-basis: calc((100% - 60px)/3);
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: center;
-    padding-top: 94px;
     margin-bottom: 50px;
 }
 .title-list{
@@ -251,7 +258,7 @@ address{
 }
 /* Portfolio */
 .sub-title{
-    margin-bottom: 10px;
+    margin-bottom: 9px;
 }
 .second-list-title{
     color: var(--primary-text-color);
@@ -278,6 +285,15 @@ address{
     background-color:#FFFFFF;
 }
 /* Contacts */
+.logo-footer{
+    color: var(--accent-color);
+    font-family: var(--secondary-font);
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    display: block;
+    margin-bottom: 20px;
+}
 .footer-contacts{
     font-style: normal;
     color: #FFFFFF;
@@ -286,17 +302,14 @@ address{
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-.margin-address{
-margin-top: 20px;
-}
 footer{
     background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .footer-top{
  padding-top: 60px;
 }
-.footet-bottom{
-padding-bottom: 60px;
-}
+
 
 

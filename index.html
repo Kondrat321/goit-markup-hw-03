@@ -6,63 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<link rel="stylesheet" href="./css/style.css">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
 <body>
     <header class="page-header line">
         <div class="container page-header-container">
 <nav class="page-nav">
            <a href="./index.html" class="logo first">Web<span class="logo-color-header">Studio</span></a>
         <ul class="site-nav page-nav">
-            <li class="menu-item"> <a href="./index.html" class="link curent first ">Студия</a></li>
-            <li class="menu-item"> <a href="./portfolio.html" class="link first">Портфолио</a></li>
-            <li class="menu-item"> <a href=""class="link first">Контакты</a></li>   
+            <li class="menu-item contacts"> <a href="./index.html" class="link curent first ">Студия</a></li>
+            <li class="menu-item contacts"> <a href="./portfolio.html" class="link first">Портфолио</a></li>
+            <li class="menu-item contacts"> <a href=""class="link first">Контакты</a></li>   
         </ul>     
 </nav>
-        <ul class="contacts page-header-container">
-    <li> <a href="" class="mail contacts">info@devstudio.com</a></li>
-    <li> <a href="" class="phone">+38 096 111 11 11</a></li>
+        <ul class="page-header-container">
+    <li class="contacts"> <a href="" class="mail">info@devstudio.com</a></li>
+    <li class="contacts"> <a href="" class="phone">+38 096 111 11 11</a></li>
         </ul>
     </div>
     </header>
     <main>
         <!-- Hero -->
-    <section class="hero hero-title">
-        <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br>ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+    <section class="hero">
         <div class="container">
+        <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br>ДЛЯ ВАШЕГО БИЗНЕСА</h1>
         <button type="button" class="hero-button button">Заказать услугу</button>
         </div>
     </section>
     <!-- Section -->
-    <section class="container">
+    <section>
+        <div class="container top">
         <h2 class="hidden">Наши особенности</h2>
         <ul class="content-item">
-            <li>
+            <li class="width">
                 <h3 class="section-title sub-title">Внимание к деталям</h3>
                 <p class="section-content">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
             </li>
-            <li>
+            <li class="width">
                 <h3 class="section-title sub-title">Пунктуальность</h3>
                 <p class="section-content">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
             </li>
-            <li>
+            <li class="width">
                 <h3 class="section-title sub-title">Планирование</h3>
                 <p class="section-content">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-            </li class="content-item">
+            </li class="width">
             <li>
                 <h3 class="section-title sub-title">Современные технологии</h3>
                 <p class="section-content">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
         </ul>
+        </div>
     </section>
-    <section class="container">
+    <section class="padding">
+        <div class="container">
         <h3 class="title">Чем мы занимаемся</h3>
         <ul class="services">
             <li class="services-card"> <img src="./images/code.jpg" alt="написание кода" width="370"></li>
             <li class="services-card"> <img src="./images/aps.jpg" alt="создание приложений" width="370"></li>
             <li class="services-card"> <img src="./images/design.jpg" alt="Дизайн" width="370"></li>
         </ul>
+        </div>
     </section>
     <!-- Title -->
     <section>
@@ -75,19 +79,19 @@
             <p lang="en" class="content-list sub-title"> Product Designer</p>
             </div>
         </li>
-        <li class="employees-card"><a href=""><img src="./images/olha_repina.jpg" alt="Ольга Репина" width="270"></a>
+        <li class="employees-card"><img src="./images/olha_repina.jpg" alt="Ольга Репина" width="270"></a>
             <div class="employees-card-content-wrapper">
             <h3 class="title-list sub-title">Ольга Репина</h3>
             <p lang="en" class="content-list sub-title">Frontend Developer</p>
         </div>
         </li>
-        <li class="employees-card"><a href=""><img src="./images/nikolay_tarasov.jpg" alt="Николай Тарасов" width="270"></a>
+        <li class="employees-card"><img src="./images/nikolay_tarasov.jpg" alt="Николай Тарасов" width="270"></a>
         <div class="employees-card-content-wrapper">
             <h3 class="title-list sub-title">Николай Тарасов</h3>
             <p lang="en" class="content-list sub-title">Marketing</p>
         </div>
         </li>
-        <li class="employees-card"><a href=""><img src="./images/mikhail_ermakov.jpg" alt="Михаил Ермаков" width="270"></a>
+        <li class="employees-card"><img src="./images/mikhail_ermakov.jpg" alt="Михаил Ермаков" width="270"></a>
             <div class="employees-card-content-wrapper">
             <h3 class="title-list sub-title">Михаил Ермаков</h3>
             <p lang="en" class="content-list">UI Designer</p>
@@ -100,13 +104,13 @@
     <footer>
         <div class="container">
          <!-- Logo -->
-        <a href="/" class="logo">Web<span class="logo-color-footer">Studio</span></a>
+        <a href="/" class="logo-footer">Web<span class="logo-color-footer">Studio</span></a>
     <address class="address">
-        <p class="margin-address sub-title">г. Киев, пр-т Леси Украинки, 26</p> 
+        <p class="sub-title">г. Киев, пр-т Леси Украинки, 26</p> 
         <!-- Contacts -->
         <ul>
-        <li class="sub-title"><a href="mailto:info@example.com" class="footer-contacts sub-title">info@example.com</a></li>
-        <li class="footet-bottom"><a href="tel: 099 111 11 11" class="footer-contacts">099 111 11 11</a></li>
+        <li class="sub-title"><a href="mailto:info@example.com" class="footer-contacts">info@example.com</a></li>
+        <li class="sub-title"><a href="tel: 099 111 11 11" class="footer-contacts">099 111 11 11</a></li>
     </ul>
     </address>
         </div>
