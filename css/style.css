@@ -40,6 +40,10 @@ ul{
 .page-nav{
     display: flex;
     align-items: center;
+}
+.site-nav{
+    display: flex;
+    text-align: center;
     gap: 50px;
 }
 .site-nav .link{
@@ -69,7 +73,6 @@ ul{
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em; 
-    margin-right: 50px;
 }
 .mail:hover,:focus{
     color: var(--accent-color);
@@ -85,9 +88,12 @@ ul{
     padding-right: 15px;
 }
 .page-header-container{
-    margin-right: auto;
     display: flex;
     align-items: center;
+}
+.page-header-contacts{
+    margin-left: auto;
+    display: flex;
     gap: 50px;
 }
 /* Hero */
@@ -127,11 +133,15 @@ ul{
     padding-top: 94px;
 }
 /* Filter */
+.main-portfolio-container{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .filter{
     display: flex;
-    padding-left: 280px;
-    padding-right: 279px;
-    padding-top: 94px;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 8px;
 }
 .button{
     font-family: inherit;
@@ -140,7 +150,6 @@ ul{
     padding-bottom: 6px;
     padding-left: 22px;
     padding-right: 22px;
-    margin-right: 8px;
     text-align: center;
     border-radius: 4px;
 }
@@ -245,6 +254,7 @@ flex-basis: calc((100% - 60px)/3);
     font-weight: 500;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    margin-bottom: 10px;
 }
 .content-list{
     color: var(--secondary-text-color);
@@ -260,11 +270,6 @@ address{
    letter-spacing: 0.03em;
 }
 /* Portfolio */
-.sub-title{
-    display: flex;
-    flex-direction: column;
-    gap: 9px;
-}
 .second-list-title{
     color: var(--primary-text-color);
     font-size: 18px;
@@ -277,11 +282,8 @@ address{
     line-height: 1.88;
     letter-spacing: 0.03em;
 }
-.container-portfolio{
-    margin-top: 50px;
-    margin-bottom: 94px;
-}
 .porffolio-card-content-wrapper{
+    border-top: none;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 24px;
@@ -290,6 +292,9 @@ address{
     background-color:#FFFFFF;
 }
 /* Contacts */
+.sub-title:not(:last-child){
+    margin-bottom: 9px;
+}
 .logo-footer{
     color: var(--accent-color);
     font-family: var(--secondary-font);
